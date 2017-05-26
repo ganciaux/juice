@@ -1,0 +1,30 @@
+Type
+- id 
+- name
+
+product
+- id
+- name
+- type_id
+(many to one)
+
+juice
+- id
+- name
+- comment
+- recipe
+- rate
+- done
+- url
+
+juice_product 
+- juice_id
+- product_id
+- quantity
+(pivot)
+
+image (todo)
+- id
+- path
+- type_id
+- type_name
